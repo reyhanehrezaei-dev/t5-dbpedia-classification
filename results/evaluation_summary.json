@@ -1,0 +1,17 @@
+{
+  "source": "Original user-submitted executed notebook (LLM.ipynb), evaluation output",
+  "dataset": "dbpedia_14",
+  "model": "t5-small",
+  "train_samples": 14000,
+  "test_samples": 14000,
+  "num_classes": 14,
+  "train_samples_per_class": 1000,
+  "test_samples_per_class": 1000,
+  "epochs": 3,
+  "learning_rate": 0.0002,
+  "train_batch_size": 16,
+  "evaluation_batch_size": 32,
+  "accuracy": 0.985571,
+  "macro_f1": 0.985598,
+  "evaluation_note": "Results are from the original run; notebook re-execution in a fresh environment has not been independently verified."
+}

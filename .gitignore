@@ -1,0 +1,30 @@
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+
+# Python and notebook caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Training artifacts and downloaded data
+wandb/
+logs/
+checkpoints/
+t5-dbpedia-output/
+models/
+data/
+datasets/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.zip

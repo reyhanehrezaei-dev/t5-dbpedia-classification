@@ -1,0 +1,15 @@
+# Dependencies used by the original T5 / DBpedia notebook.
+# These versions have not yet been revalidated as a frozen environment.
+torch
+transformers>=4.44,<5
+datasets
+evaluate
+accelerate
+sentencepiece
+wandb
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+fsspec
